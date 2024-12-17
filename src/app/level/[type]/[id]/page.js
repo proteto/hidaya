@@ -274,13 +274,53 @@ const content = {
         title: "Five Pillars of Islam",
         content: [
           {
-            question: "What are the Five Pillars of Islam?",
-            answer: "Shahada, Salat, Zakat, Sawm, Hajj."
+            question: "What is Shahada in Islam?",
+            answer: "Shahada is the declaration of faith, where a Muslim says, 'I bear witness that no one deserves to be worshiped except Allah and I bear witness that Muhammad is the Messenger of Allah' (ASH-HADU ANNA LA ILAHA ILLA ALLAH, WA ASH-HADU ANNA MUHAMMADAN RASULU ALLAH)"
           },
           {
-            question: "Why are the Five Pillars important?",
-            answer: "They guide all aspects of a Muslim’s life."
-          }
+            question: "Does saying the Shahada mean a person is committed to following Allah's teachings?",
+            answer: "Yes, saying the Shahada is a commitment to following Allah's guidance and the teachings of Prophet Muhammad. It is the foundation of the entire Islamic faith."
+          },
+          {
+            question: "What is Salat in Islam?",
+            answer: "Salat is the second pillar of Islam and refers to the five daily prayers performed by Muslims at specific times in a day."
+          },
+          {
+            question: "What are five obligatory daily prayers in Islam?",
+            answer: "1 - Fajr, 2 - Zuhr, 3 - Asr, 4 - Maghrib, 5 - Isha'"
+          },
+          {
+            question: "What happens during Salat? What are the actions involved?",
+            answer: "During Salat, Muslims face the Kaaba in Mecca, recite verses from the Quran, and perform physical actions like standing, bowing, and prostrating. Each action reflects submission to Allah and has spiritual significance."
+          },
+          {
+            question: "What is Zakat in Islam?",
+            answer: "Zakat is the third pillar of Islam, which means 'to purify.' It is a mandatory act of charity that purifies a Muslim’s wealth and soul by redistributing a portion of it to those in need."
+          },
+          {
+            question: "How does Zakat work? What are the criteria for giving Zakat, and who benefits from it?",
+            answer: "Muslims are required to give 2.5% of their wealth annually if it exceeds a certain threshold known as nisab (equal to the value of 85 grams of gold or 595 grams of silver). Zakat is given to specific categories of people, such as the poor, the needy, those in debt, and others as outlined in the Quran."
+          },
+          {
+            question: "What is Sawm in Islam?",
+            answer: "Sawm is the fourth pillar of Islam, which refers to fasting during the holy month of Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs."
+          },
+          {
+            question: "What does fasting during Ramadan involve? Is it just about not eating?",
+            answer: "Fasting is more than just abstaining from food and drink. It also includes avoiding smoking, negative habits like arguing, and impure thoughts. Muslims also make an intention (niyyah) before dawn to fast for the sake of Allah."
+          },
+          {
+            question: "What is Hajj in Islam?",
+            answer: "Hajj is the fifth and final pillar of Islam, a once-in-a-lifetime pilgrimage to Mecca for Muslims who are physically and financially able to perform it."
+          },
+          {
+            question: "What makes Hajj so special?",
+            answer: "Hajj is the largest spiritual gathering of Muslims worldwide. Pilgrims come together to worship Allah and perform rituals that were taught by Prophet Muhammad during his last pilgrimage."
+          },
+          {
+            question: "When does Hajj take place?",
+            answer: "Hajj occurs during Dhul Hijjah, the 12th month of the Islamic calendar. It ends with the festival of Eid ul-Adha, which commemorates the devotion of Prophet Ibrahim to Allah."
+          },
         ]
       }
       // Add more units here
@@ -463,13 +503,7 @@ export default function LevelPage({ params }) {
             {currentUnit?.content[currentTopic]?.answer}
           </p>
         </div>
-        <div className="flex justify-between">
-          <button
-            onClick={handleSkip}
-            className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
-          >
-            Skip
-          </button>
+        <div className="flex justify-end">
           <button
             onClick={handleNext}
             className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"

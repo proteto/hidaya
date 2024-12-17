@@ -70,9 +70,9 @@ const Chatroom = () => {
     };
 
     return (
-        <div className="font-inter max-w-[1200px] mx-auto bg-gray-900 overflow-hidden h-screen flex flex-col relative tracking-tight md:max-w-[800px] md:h-[85vh] md:my-8 md:border md:border-white/5">
+        <div className="font-inter w-full mx-auto bg-gray-900 overflow-hidden h-screen flex flex-col relative tracking-tight md:h-[85vh] md:my-8">
             {!userName ? (
-                <div className="flex justify-center items-center bg-black/95 backdrop-blur-md z-50">
+                <div className="w-full flex justify-center items-center bg-gray-800 backdrop-blur-md z-50 rounded-3xl py-4 min-h-full">
                     <div className="w-11/12 max-w-md text-center bg-zinc-900 p-10 rounded-3xl shadow-2xl border border-white/10">
                         <h2 className="text-3xl mb-4 font-bold tracking-tighter text-white">
                             Welcome to Chat
@@ -85,7 +85,7 @@ const Chatroom = () => {
                                 type="text"
                                 id="username-input"
                                 placeholder="Your name"
-                                className="w-full px-6 py-4 rounded-xl border-2 border-zinc-700 bg-zinc-800 text-white focus:border-green-500 focus:ring-4 focus:ring-green-500/15"
+                                className="w-full px-6 py-4 rounded-xl border-2 border-zinc-700 bg-zinc-800 text-white focus:border-green-500 "
                             />
                             <button
                                 onClick={() => {

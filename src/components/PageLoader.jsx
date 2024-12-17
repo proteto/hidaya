@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
@@ -19,7 +20,7 @@ const PageLoader = () => {
     }, 1500);
 
     const visibilityTimer = setTimeout(() => {
-      setIsVisible(false);  
+      setIsVisible(false);
       document.documentElement.style.overflow = 'auto';
     }, 1000);
 
@@ -33,15 +34,22 @@ const PageLoader = () => {
   if (!isVisible) return null;
 
   return (
-    <div 
+    <div
       className={`
         fixed inset-0 z-[9999] bg-gray-900 
         flex flex-col items-center justify-center 
         transition-all duration-500 ease-in-out
         ${isLoading ? 'opacity-100' : 'opacity-0'}
       `}>
-      <p className='text-center text-green-500 font-extrabold uppercase text-3xl mb-4 '>hidaya </p>
-      <div 
+      <Image
+        src="/logo.png"
+        alt="Hidaya Logo"
+        width={100}
+        height={100}
+        className="mb-4"
+      />
+      <p className='text-center text-green-500 font-extrabold uppercase text-3xl mb-4 -translate-y-4  '>hidaya </p>
+      <div
         className="h-3 rounded-full overflow-hidden w-96 bg-green-500 transform origin-left"
         style={{
           animation: 'loading-bar 1.5s cubic-bezier(0.4, 0, 0.2, 1)',

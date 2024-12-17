@@ -1,0 +1,145 @@
+{
+    "basic": [
+        {
+            "id": 1,
+            "question": "How many times do Muslims pray daily?",
+            "description": "This question is to check your level",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "question": "What is your level?",
+            "description": "This question will help you determine what is the best for you",
+            "options": [
+                "basic",
+                "moderate",
+                "advanced"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 3,
+            "question": "What is the name of the tribe of our Holy Prophet?",
+            "description": "Our Holy prophet's tribe is one of the most important",
+            "options": [
+                "Banu Aws",
+                "Banu Umayyah",
+                "Banu Makhzum",
+                "Banu Quraysh"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 4,
+            "question": "Which battle is considered the first major battle in Islamic history?",
+            "description": "This is one of the most important battles in Islamic history",
+            "options": [
+                "Battle of Uhud",
+                "Battle of Badr",
+                "Battle of Khandaq",
+                "Battle of Hunayn"
+            ],
+            "answer": 1
+        }
+    ],
+    "moderate": [
+        {
+            "id": 1,
+            "question": "Are you new Muslim?",
+            "description": "This question is to know more about you",
+            "options": [
+                "yes",
+                "no"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "question": "What is your level?",
+            "description": "This question will help you determine what is the best for you",
+            "options": [
+                "basic",
+                "moderate",
+                "advanced"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 3,
+            "question": "What is the name of the tribe of our Holy Prophet?",
+            "description": "Our Holy prophet's tribe is one of the most important",
+            "options": [
+                "Banu Aws",
+                "Banu Umayyah",
+                "Banu Makhzum",
+                "Banu Quraysh"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 4,
+            "question": "Which battle is considered the first major battle in Islamic history?",
+            "description": "This is one of the most important battles in Islamic history",
+            "options": [
+                "Battle of Uhud",
+                "Battle of Badr",
+                "Battle of Khandaq",
+                "Battle of Hunayn"
+            ],
+            "answer": 1
+        }
+    ],
+    "advanced": [
+        {
+            "id": 1,
+            "question": "Are you new Muslim?",
+            "description": "This question is to know more about you",
+            "options": [
+                "yes",
+                "no"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "question": "What is your level?",
+            "description": "This question will help you determine what is the best for you",
+            "options": [
+                "basic",
+                "moderate",
+                "advanced"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 3,
+            "question": "What is the name of the tribe of our Holy Prophet?",
+            "description": "Our Holy prophet's tribe is one of the most important",
+            "options": [
+                "Banu Aws",
+                "Banu Umayyah",
+                "Banu Makhzum",
+                "Banu Quraysh"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 4,
+            "question": "Which battle is considered the first major battle in Islamic history?",
+            "description": "This is one of the most important battles in Islamic history",
+            "options": [
+                "Battle of Uhud",
+                "Battle of Badr",
+                "Battle of Khandaq",
+                "Battle of Hunayn"
+            ],
+            "answer": 1
+        }
+    ]
+}

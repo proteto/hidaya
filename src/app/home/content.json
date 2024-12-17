@@ -1,0 +1,162 @@
+{
+    "articlesOfFaith": [
+      {
+        "id": "allah",
+        "title": "Allah",
+        "subsections": [
+          {
+            "id": "allah-who",
+            "title": "Who is Allah?",
+            "content": "He is the creator of the universe, sovereign and all-powerful."
+          },
+          {
+            "id": "allah-one",
+            "title": "Is Allah one & indivisible?",
+            "content": "Yes, belief in the oneness of Allah is fundamental."
+          },
+          {
+            "id": "allah-tawhid",
+            "title": "What is Tawhid?",
+            "content": "It means Allah is singular, unique and without any partners."
+          },
+            {
+              "id":"allah-names",
+              "title":"How many names are there for Allah Almighty?",
+               "content":"99 names"
+            }
+        ]
+      },
+      {
+        "id": "messengers",
+        "title": "Messengers of God",
+         "subsections":[
+           {
+              "id":"messengers-count",
+              "title":"How many Prophets have been mentioned in holy Quran?",
+              "content":"25"
+           },
+           {
+            "id": "messengers-last",
+            "title": "Who is the last Prophet?",
+            "content": "Prophet Muhammed (PBUH)"
+          },
+           {
+             "id": "messengers-prioritized",
+             "title": "Who are the prioritized among all prophets(Ulul Azm)?",
+             "content": "Naoh, Ibrahim, Musa, Isa, Muhammed"
+           },
+           {
+              "id": "messengers-human",
+             "title": "Were the Prophets in Islam actual human beings?",
+             "content": "The prophets were real human beings chosen by Allah to deliver His messages to mankind."
+            }
+         ]
+      },
+      {
+        "id": "divine-books",
+        "title": "Divinely revealed books",
+         "subsections":[
+           {
+             "id":"divine-books-all",
+             "title": "What are the Holy Books in Islam?",
+             "content":"Quran, Tawrat, Zabur, Injil"
+           },
+           {
+            "id": "divine-books-original",
+            "title": "Which is the only remaining holy book in its original form?",
+            "content": "The Quran"
+          },
+          {
+            "id":"divine-books-injil",
+             "title": "To which prophet was the Injil revealed?",
+             "content":"Prophet Jesus"
+          },
+           {
+            "id": "divine-books-tawrat",
+             "title": "Which is the holy book revealed to Musa?",
+             "content":"Tawrat"
+          }
+         ]
+      },
+      {
+        "id": "angels",
+        "title": "Angels (Mala'ika)",
+         "subsections":[
+           {
+             "id":"angels-who",
+             "title": "Who are the angels(mala'ika) in Islam?",
+            "content": "They are beings created by Allah from light. They are invisible to humans but have specific roles and duties."
+           },
+             {
+              "id":"angels-count",
+             "title": "How many angels are there in Islam?",
+            "content": "The exact number of angels is not known."
+           },
+           {
+             "id": "angels-revelation",
+             "title": "Who brought Allah’s revelations to the prophets?",
+             "content": "Jibreel"
+           },
+           {
+             "id":"angels-death",
+            "title":"Who is The Angel of Death?",
+             "content":"Azrael"
+          },
+            {
+               "id":"angels-human",
+               "title": "Can angels appear in human form?",
+               "content": "Yes, angels can take on human form."
+            }
+         ]
+      },
+      {
+        "id": "day-of-judgment",
+        "title": "Day of Judgment",
+        "subsections":[
+          {
+            "id":"judgment-what",
+             "title": "What is the Day of Judgment?",
+            "content": "Day when Allah will resurrect all beings to account for their deeds."
+          },
+            {
+              "id": "judgment-when",
+            "title": "When will the Day of Judgment occur?",
+            "content": "The exact time of the Day of Judgment is known only to Allah."
+            },
+          {
+            "id":"judgment-paradise",
+            "title": "Who will be rewarded paradise?",
+            "content":"Those who have lived righteous lives."
+          },
+          {
+             "id":"judgment-hell",
+              "title": "Who will be rewarded hell?",
+              "content":"those who have led sinful lives."
+          }
+  
+        ]
+      },
+      {
+        "id": "divine-decree",
+        "title": "Divine Decree",
+         "subsections":[
+           {
+              "id":"decree-arabic",
+              "title": "What is the Arabic word for Divine Decree?",
+               "content":"Qadr"
+           },
+            {
+             "id":"decree-belief",
+             "title":"What is belief in the Divine Decree (Qadar) in Islam?",
+              "content":"Belief in Qadar is the belief that everything that happens, both good and bad, is predestined by Allah. It is part of the six articles of faith in Islam."
+            },
+            {
+              "id":"decree-freewill",
+             "title":"Does believing in Divine Decree mean that humans have no free will?",
+             "content":"No, Islam teaches that while Allah has knowledge and control over everything, humans are still accountable for their actions, as they have been given free will to choose between right and wrong."
+            }
+  
+         ]
+      }
+    ]
+  }

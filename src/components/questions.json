@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "country",
+      "text": "You are staying in ...",
+      "options": ["india", "pakistan", "bangladesh", "afghanistan", "saudi arabia"],
+      "character": {
+        "type": "svg",
+        "viewBox": "0 0 200 200",
+        "className": "w-48 h-48",
+        "elements": [
+          {"type": "circle", "cx": 100, "cy": 100, "r": 90, "fill": "#F0F0F0"},
+          {"type": "circle", "cx": 70, "cy": 80, "r": 15, "fill": "#333"},
+          {"type": "circle", "cx": 130, "cy": 80, "r": 15, "fill": "#333"},
+          {"type": "path", "d": "M70 120 Q100 150, 130 120", "stroke": "#333", "fill": "none", "strokeWidth": 5}
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "start",
+      "text": "Let's get started",
+      "character": {
+          "type": "svg",
+          "viewBox": "0 0 200 200",
+          "className": "w-48 h-48",
+          "elements": [
+            {"type": "circle", "cx": 100, "cy": 100, "r": 90, "fill": "#F0F0F0"},
+            {"type": "circle", "cx": 70, "cy": 80, "r": 15, "fill": "#333"},
+            {"type": "circle", "cx": 130, "cy": 80, "r": 15, "fill": "#333"},
+            {"type": "path", "d": "M70 120 Q100 150, 130 120", "stroke": "#333", "fill": "none", "strokeWidth": 5}
+          ]
+        }
+    },
+    {
+      "id": 3,
+      "type": "time",
+      "text": "Yes, now we continue",
+      "character": {
+          "type": "svg",
+          "viewBox": "0 0 200 200",
+          "className": "w-48 h-48",
+          "elements": [
+            {"type": "circle", "cx": 100, "cy": 100, "r": 90, "fill": "#F0F0F0"},
+            {"type": "circle", "cx": 70, "cy": 80, "r": 15, "fill": "#333"},
+            {"type": "circle", "cx": 130, "cy": 80, "r": 15, "fill": "#333"},
+            {"type": "path", "d": "M70 120 Q100 150, 130 120", "stroke": "#333", "fill": "none", "strokeWidth": 5}
+          ]
+        }
+    },
+    {
+      "id": 4,
+      "type": "level check",
+      "text": "Yes, now we are checking your level",
+      "character": {
+          "type": "svg",
+          "viewBox": "0 0 200 200",
+          "className": "w-48 h-48",
+          "elements": [
+            {"type": "circle", "cx": 100, "cy": 100, "r": 90, "fill": "#F0F0F0"},
+            {"type": "circle", "cx": 70, "cy": 80, "r": 15, "fill": "#333"},
+            {"type": "circle", "cx": 130, "cy": 80, "r": 15, "fill": "#333"},
+            {"type": "path", "d": "M70 120 Q100 150, 130 120", "stroke": "#333", "fill": "none", "strokeWidth": 5}
+          ]
+        }
+    }
+  ]
+}
